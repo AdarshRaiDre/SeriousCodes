@@ -1,0 +1,15 @@
+//program that displays the coordinates of the screen where the mpuse is clicked
+//language is python
+from graphics import*
+def main():
+	        win=GraphWin('POINTS',600,600)
+         	x=win.getMouse()
+          x.draw(win)
+        	y=win.getMouse()
+	        y.draw(win)
+	        result=dist(x,y)
+        	print ' The distance between the two points is  :',result,' units'
+        	win.getMouse()
+        	win.close()
+          
+    
