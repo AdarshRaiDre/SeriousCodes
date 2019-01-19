@@ -1,4 +1,4 @@
-//program that displays the coordinates of the screen where the mpuse is clicked
+//program that displays the coordinates of the screen where the mouse is clicked
 //language is python
 from graphics import*
 def main():
